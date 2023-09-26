@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cancel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "enum Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EnumImport.sol": "Enum"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EnumDeclaration.sol": {
+			"keccak256": "0xd432d0332763f322a84d813e89101b820a5f6fa0b7f1e6f901a6ce89f4af7d9f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4764c5e93a75df6e51f91eba2fd6db8f64cc01fc1b5f7b4b4da4ecf9992af581",
+				"dweb:/ipfs/QmNs6YiddvKdPr1bA69dGhmx9TGakPvDu3jd6Jb6ZoG3mp"
+			]
+		},
+		"EnumImport.sol": {
+			"keccak256": "0x33b15ec45a61bc9cb93596a92bf1453e3add48159c6d5b0ec2b22110ac4c8f93",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d0856f0f5430d7ac52dff1ab642f731c74f066696a0e5ab436729bd9bd7886cf",
+				"dweb:/ipfs/QmUKLwF8WV9ERxGsiTbHJxJvuLupU69MbUVfKNdnvHy5fY"
+			]
+		}
+	},
+	"version": 1
+}
